@@ -1,0 +1,16 @@
+C:\Users\user\source\repos\sortttknig\sortttknig\bin\Release\sortttknig.exe.config
+C:\Users\user\source\repos\sortttknig\sortttknig\bin\Release\sortttknig.exe.manifest
+C:\Users\user\source\repos\sortttknig\sortttknig\bin\Release\sortttknig.application
+C:\Users\user\source\repos\sortttknig\sortttknig\bin\Release\sortttknig.exe
+C:\Users\user\source\repos\sortttknig\sortttknig\bin\Release\sortttknig.pdb
+C:\Users\user\source\repos\sortttknig\sortttknig\bin\Release\Newtonsoft.Json.dll
+C:\Users\user\source\repos\sortttknig\sortttknig\bin\Release\Newtonsoft.Json.xml
+C:\Users\user\source\repos\sortttknig\sortttknig\obj\Release\sortttknig.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\sortttknig\sortttknig\obj\Release\sortttknig.Properties.Resources.resources
+C:\Users\user\source\repos\sortttknig\sortttknig\obj\Release\sortttknig.csproj.GenerateResource.cache
+C:\Users\user\source\repos\sortttknig\sortttknig\obj\Release\sortttknig.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\sortttknig\sortttknig\obj\Release\sortttknig.exe.manifest
+C:\Users\user\source\repos\sortttknig\sortttknig\obj\Release\sortttknig.application
+C:\Users\user\source\repos\sortttknig\sortttknig\obj\Release\sortttknig.csproj.Up2Date
+C:\Users\user\source\repos\sortttknig\sortttknig\obj\Release\sortttknig.exe
+C:\Users\user\source\repos\sortttknig\sortttknig\obj\Release\sortttknig.pdb

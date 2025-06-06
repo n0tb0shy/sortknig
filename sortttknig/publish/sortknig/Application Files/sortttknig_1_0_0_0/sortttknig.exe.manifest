@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="sortttknig.exe" version="1.0.0.0" publicKeyToken="3a491167b8a9e985" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="sortttknig" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="sortttknig.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          Если нужно изменить уровень контроля учетных записей Windows, замените 
+          узел requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        Если нужно использовать виртуализацию файлов и реестра для обратной
+             совместимости, удалите узел requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="711952">
+      <assemblyIdentity name="Newtonsoft.Json" version="13.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>4eJ697B+7t9c5xqSVfBCKBam/FhJpIPGcU4bRyBE+p0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="sortttknig.exe" size="20952">
+      <assemblyIdentity name="sortttknig" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>HsRZ+FEsDznfS4XSFYGfMUVt6cKlujjDZtpK8vd6jGg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="sortttknig.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=WIN-T9QCANI2HHL\user" issuerKeyHash="5b43d02735352f81ce0ff9ac75a99d7810a83994" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>4sSmq4rQDSVd/gG6t+MZ8wSY/fh5s7zJ1QnDvLZkdro=</DigestValue></Reference></SignedInfo><SignatureValue>FU26zgGD1eJXiLDUZfDtA6wATLj7szU/hQoUnnRZbN8acE4N1QUDUsk00lIp7Z2ydHegC3uqFeofnAKZ0wKZFNrgJ0OqqA2TzyL0wtZXgQEa34OqT/HucBzvtP7ngb5kiadHOj3+9wNwl/aTfASl4DX+tlsivmyxBYpQKpwx0Kw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wU5skX3uSeTdqUc8kqhmWsDKp3sfcVEQzrTihVX/q62x59o6erEvut7O42SmRPS6r18im2TuAYEQNjDSVIEtXcyKFsTQ0H6XqZBM35Awju0THyNZFZrYUhyE+WFnWjcfvelc8HwIm6uO2OxjSBJVxDhXz8W3WQ7km0A+If1iHzk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ba7664b6bcc309d5c9bcb379f8fd9804f319e3b7ba01fe5d250dd08aaba6c4e2" Description="" Url=""><as:assemblyIdentity name="sortttknig.exe" version="1.0.0.0" publicKeyToken="3a491167b8a9e985" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=WIN-T9QCANI2HHL\user</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>7AQtrTq1g5zQzCHTztBZajoYTci2sEXhhRV8/YoMCUo=</DigestValue></Reference></SignedInfo><SignatureValue>IfQ97QE+5oO5LnVT/3ik2XATgp4qbSrONAN4dd7dHw0A+wl0ItDEZ9wKdr2E5JYNbS2mHsrrty3GJm8DR87wiywJMMlKz7eGqOG0RS3w3dzV5Ns6Zefhyx7lO3tCB2IJv6AmM0iQshRMoODHyDFcGFP9t3tJr2RTQp0J50THnjQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wU5skX3uSeTdqUc8kqhmWsDKp3sfcVEQzrTihVX/q62x59o6erEvut7O42SmRPS6r18im2TuAYEQNjDSVIEtXcyKFsTQ0H6XqZBM35Awju0THyNZFZrYUhyE+WFnWjcfvelc8HwIm6uO2OxjSBJVxDhXz8W3WQ7km0A+If1iHzk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQE+Z1hnMPSYBCavV0mtjQfzANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigAVwBJAE4ALQBUADkAUQBDAEEATgBJADIASABIAEwAXAB1AHMAZQByMB4XDTI1MDYwNTEyMzQ0MVoXDTI2MDYwNTE4MzQ0MVowMzExMC8GA1UEAx4oAFcASQBOAC0AVAA5AFEAQwBBAE4ASQAyAEgASABMAFwAdQBzAGUAcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAwU5skX3uSeTdqUc8kqhmWsDKp3sfcVEQzrTihVX/q62x59o6erEvut7O42SmRPS6r18im2TuAYEQNjDSVIEtXcyKFsTQ0H6XqZBM35Awju0THyNZFZrYUhyE+WFnWjcfvelc8HwIm6uO2OxjSBJVxDhXz8W3WQ7km0A+If1iHzkCAwEAATANBgkqhkiG9w0BAQsFAAOBgQBO4oVdwgW6l5UM6Uk7iiZC4U1JoozZnI0Us35tGQ/YXf2nVXMJTrC7h6b9ipCe2nZxg35D1kD5JORoUsZiBenQY9yB3wAC//DrO1srCeqWWaQyhZ8ujQGNPTXS8dCTzkxnzV+PO+/+bGST6LlnsDGrrnkjnedHfoxRXZkEJEyKEw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

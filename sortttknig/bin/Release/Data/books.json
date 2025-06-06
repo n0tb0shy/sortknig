@@ -1,0 +1,32 @@
+[
+  {
+    "Id": "08d61328-5908-4a9a-9a09-ad612678fc23",
+    "Title": "test1",
+    "Author": "34234324",
+    "Year": 2025,
+    "Genre": "24324324",
+    "Description": "23323223",
+    "IsRead": false,
+    "Rating": 5
+  },
+  {
+    "Id": "3faf5a26-e964-480b-924c-ecb84912ec97",
+    "Title": "test2",
+    "Author": "56465754",
+    "Year": 2025,
+    "Genre": "34342342342",
+    "Description": "324324324243",
+    "IsRead": true,
+    "Rating": 5
+  },
+  {
+    "Id": "90c26ae0-4a17-49fc-950e-c7e64f96e951",
+    "Title": "32432",
+    "Author": "432342342342",
+    "Year": 2025,
+    "Genre": "23432234",
+    "Description": "324243324",
+    "IsRead": false,
+    "Rating": 5
+  }
+]
